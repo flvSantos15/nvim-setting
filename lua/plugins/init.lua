@@ -2,7 +2,7 @@ return {
   -- Carrega configuracoes de UI
   require("plugins.ui"),
 
-  -- Carrega configuracores de LSP
+  -- Carrega configuracoes de LSP
   require("plugins.lsp"),
 
   -- Carrega configuracoes de autocompletion
@@ -13,5 +13,7 @@ return {
 
   -- Carrega configuracoes de formatacao
   require("plugins.formatting"),
-}
 
+  -- Carrega configuracoes de autoclose e snippets
+  require("plugins.autoclose-snippets"),
+}
